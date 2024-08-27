@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.7">
   <diagram name="Página-1" id="wyPMVs7qxjk4DiGd5-gA">
-    <mxGraphModel dx="2821" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5537" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -232,7 +232,7 @@
         </mxCell>
         <mxCell id="4GWm3Y9KbYVLw41ndgp1-87" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="880" y="840" as="sourcePoint" />
+            <mxPoint x="880" y="1780" as="sourcePoint" />
             <mxPoint x="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -280,7 +280,7 @@
         <mxCell id="bN4ON1j1iUdkn4UldxmA-38" value="&lt;b&gt;Input&lt;/b&gt;: COMS_struct&amp;nbsp;&lt;div&gt;&lt;b&gt;Output&lt;/b&gt;: void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Descripción&lt;/b&gt;:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Carga en el buffer de datos de vuelo el identificador de la carga útil a la que se solicitará el mensaje de estado para la gestión de telemetría&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1312" y="970" width="252" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Nna16JnNOgMSSctsy5-x-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bN4ON1j1iUdkn4UldxmA-41" target="Nna16JnNOgMSSctsy5-x-46">
+        <mxCell id="Nna16JnNOgMSSctsy5-x-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bN4ON1j1iUdkn4UldxmA-41" target="Nna16JnNOgMSSctsy5-x-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bN4ON1j1iUdkn4UldxmA-41" value="Buffer de Cargas Útiles con&amp;nbsp;&lt;div&gt;transmisión activa&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
@@ -336,66 +336,169 @@
         <mxCell id="bN4ON1j1iUdkn4UldxmA-68" value="Buffer de datos&amp;nbsp;&lt;div&gt;de vuelo&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="-763" y="960" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Nna16JnNOgMSSctsy5-x-22" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Nna16JnNOgMSSctsy5-x-22" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1420" y="1120" width="980" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="Nna16JnNOgMSSctsy5-x-23" value="Gestor de Telemetría Secundaría" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Nna16JnNOgMSSctsy5-x-23" value="Gestor de Telemetría Secundaría" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1043" y="1140" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Nna16JnNOgMSSctsy5-x-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nna16JnNOgMSSctsy5-x-25">
+        <mxCell id="Nna16JnNOgMSSctsy5-x-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nna16JnNOgMSSctsy5-x-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-540" y="1270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nna16JnNOgMSSctsy5-x-25" value="Ejecución de Función" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Nna16JnNOgMSSctsy5-x-25" value="Ejecución de Función" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-600" y="1140" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Nna16JnNOgMSSctsy5-x-26" value="&lt;b&gt;Input&lt;/b&gt;: COMS_struct&amp;nbsp;&lt;div&gt;&lt;b&gt;Output&lt;/b&gt;: void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Descripción&lt;/b&gt;:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Gestiona las solicitudes de transmisión de las cargas útiles y las pone en lista&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1312" y="1490" width="252" height="30" as="geometry" />
+        <mxCell id="Nna16JnNOgMSSctsy5-x-26" value="&lt;b&gt;Input&lt;/b&gt;: COMS_struct&amp;nbsp;&lt;div&gt;&lt;b&gt;Output&lt;/b&gt;: void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Descripción&lt;/b&gt;:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Gestiona las solicitudes de transmisión de las cargas útiles y las pone en lista&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1390" y="1490" width="252" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Nna16JnNOgMSSctsy5-x-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Nna16JnNOgMSSctsy5-x-46" target="bN4ON1j1iUdkn4UldxmA-68">
+        <mxCell id="Nna16JnNOgMSSctsy5-x-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Nna16JnNOgMSSctsy5-x-46" target="bN4ON1j1iUdkn4UldxmA-68" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-540" y="990" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nna16JnNOgMSSctsy5-x-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nna16JnNOgMSSctsy5-x-46" target="Nna16JnNOgMSSctsy5-x-53">
+        <mxCell id="Nna16JnNOgMSSctsy5-x-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nna16JnNOgMSSctsy5-x-46" target="Nna16JnNOgMSSctsy5-x-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Nna16JnNOgMSSctsy5-x-46" value="Revisar bandera&lt;div&gt;&amp;nbsp;de transmisión secundaria&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Nna16JnNOgMSSctsy5-x-46" value="Revisar bandera&lt;div&gt;&amp;nbsp;de transmisión secundaria&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-600" y="840" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Nna16JnNOgMSSctsy5-x-50" value="Sí" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Nna16JnNOgMSSctsy5-x-50" value="Sí" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-950" y="870" width="20" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Nna16JnNOgMSSctsy5-x-51" value="No" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Nna16JnNOgMSSctsy5-x-51" value="No" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-950" y="970" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Nna16JnNOgMSSctsy5-x-52" value="Activa" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Nna16JnNOgMSSctsy5-x-52" value="Activa" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-620" y="990" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Nna16JnNOgMSSctsy5-x-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Nna16JnNOgMSSctsy5-x-53" target="bN4ON1j1iUdkn4UldxmA-48">
+        <mxCell id="Nna16JnNOgMSSctsy5-x-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Nna16JnNOgMSSctsy5-x-53" target="bN4ON1j1iUdkn4UldxmA-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-703" y="780" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nna16JnNOgMSSctsy5-x-53" value="Contador almacenado en buffer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Nna16JnNOgMSSctsy5-x-53" value="Contador almacenado en buffer" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-750" y="750" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Nna16JnNOgMSSctsy5-x-56" value="Desactivada" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Nna16JnNOgMSSctsy5-x-56" value="Desactivada" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-690" y="870" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Nna16JnNOgMSSctsy5-x-66" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 18px; font-family: &amp;quot;Times New Roman&amp;quot;; background-color: initial;&quot;&gt;La declaración de objetos del sistema, buffers y descripción de mensaje se encuentra en la carpeta de documentación, en el Excel con el nombre de:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: y_a-bWr65QD4lHSfk_FX; font-size: medium;&quot;&gt;&quot;Objetos, tramas de comunicación serial y telemetría&quot;.&lt;/span&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Nna16JnNOgMSSctsy5-x-66" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 18px; font-family: &amp;quot;Times New Roman&amp;quot;; background-color: initial;&quot;&gt;La declaración de objetos del sistema, buffers y descripción de mensaje se encuentra en la carpeta de documentación, en el Excel con el nombre de:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: y_a-bWr65QD4lHSfk_FX; font-size: medium;&quot;&gt;&quot;Objetos, tramas de comunicación serial y telemetría&quot;.&lt;/span&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2155" y="130" width="480" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Nna16JnNOgMSSctsy5-x-67" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="Nna16JnNOgMSSctsy5-x-67" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1570" as="sourcePoint" />
+            <mxPoint x="-3740" as="sourcePoint" />
             <mxPoint x="2970" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aKKT3n9plMRyXGT5epxi-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-540" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-1" value="Buffer de estados&lt;div&gt;&amp;nbsp;de carga útil&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aKKT3n9plMRyXGT5epxi-5" target="aKKT3n9plMRyXGT5epxi-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-540" y="1530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aKKT3n9plMRyXGT5epxi-5" target="aKKT3n9plMRyXGT5epxi-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-5" value="Revisar&amp;nbsp;&lt;div&gt;bandera&lt;div&gt;&amp;nbsp;de solicitud de transmisión&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="1350" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aKKT3n9plMRyXGT5epxi-6" target="aKKT3n9plMRyXGT5epxi-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-800" y="1550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-6" value="Buffer de&amp;nbsp;&lt;div&gt;solicitudes de transmisión&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-763" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aKKT3n9plMRyXGT5epxi-11" target="aKKT3n9plMRyXGT5epxi-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aKKT3n9plMRyXGT5epxi-11" target="aKKT3n9plMRyXGT5epxi-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-11" value="¿La lista&amp;nbsp;&lt;div&gt;tiene elementos validos?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-930" y="1470" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aKKT3n9plMRyXGT5epxi-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-870" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-12" value="Levantar bandera de transmisión secundaria" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-930" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aKKT3n9plMRyXGT5epxi-16" target="aKKT3n9plMRyXGT5epxi-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-16" value="Cargar identificador a solicitar información de transmisión" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-930" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-17" value="Buffer de Cargas Útiles con&amp;nbsp;&lt;div&gt;transmisión activa&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-1100" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aKKT3n9plMRyXGT5epxi-20" target="aKKT3n9plMRyXGT5epxi-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-20" value="Bajar bandera de transmisión secundaria&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1100" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aKKT3n9plMRyXGT5epxi-22" target="aKKT3n9plMRyXGT5epxi-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-22" value="Cargar identificador 0xFF" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1100" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-25" value="Desactivada" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="1530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aKKT3n9plMRyXGT5epxi-26" target="aKKT3n9plMRyXGT5epxi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-26" value="Agregar identificador según prioridad" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-763" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-30" value="Activa" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-643" y="1370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-31" value="Sí" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-890" y="1450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-32" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="1500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-33" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 48px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Telemetría&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2150" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-34" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2610" y="80" width="980" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-36" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2720" y="1726.6666666666667" as="sourcePoint" />
+            <mxPoint x="-2720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-37" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 48px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Sensores&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3350" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aKKT3n9plMRyXGT5epxi-38" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3810" y="80" width="980" height="480" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
