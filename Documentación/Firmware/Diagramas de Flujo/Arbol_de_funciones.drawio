@@ -123,8 +123,10 @@
         <mxCell id="4GWm3Y9KbYVLw41ndgp1-31" value="Sistema Operativo" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="234" y="880" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4GWm3Y9KbYVLw41ndgp1-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4GWm3Y9KbYVLw41ndgp1-33" target="4GWm3Y9KbYVLw41ndgp1-75" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="4GWm3Y9KbYVLw41ndgp1-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4GWm3Y9KbYVLw41ndgp1-33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="274" y="1100" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="4GWm3Y9KbYVLw41ndgp1-33" value="200 ms" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="214" y="1000" width="120" height="60" as="geometry" />
@@ -210,13 +212,8 @@
             <mxPoint x="-1520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4GWm3Y9KbYVLw41ndgp1-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4GWm3Y9KbYVLw41ndgp1-75" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="274" y="1200" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4GWm3Y9KbYVLw41ndgp1-75" value="Comunicación con Cargas Útiles" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="214" y="1100" width="120" height="60" as="geometry" />
+        <mxCell id="bN4ON1j1iUdkn4UldxmA-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4GWm3Y9KbYVLw41ndgp1-79" target="bN4ON1j1iUdkn4UldxmA-66">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4GWm3Y9KbYVLw41ndgp1-79" value="Almacenar datos de vuelo en SD" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="54" y="1100" width="120" height="60" as="geometry" />
@@ -278,7 +275,7 @@
         <mxCell id="bN4ON1j1iUdkn4UldxmA-5" value="Buffer de&amp;nbsp;&lt;div&gt;solicitudes de transmisión&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="-600" y="435" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bN4ON1j1iUdkn4UldxmA-10" value="&lt;b&gt;Input&lt;/b&gt;: COMS_struct&amp;nbsp;&lt;div&gt;&lt;b&gt;Output&lt;/b&gt;: void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Descripción&lt;/b&gt;:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Gestor de comunicación con Cargas Útiles por prioridades (0x00 mayor prioridad)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="bN4ON1j1iUdkn4UldxmA-10" value="&lt;b&gt;Input&lt;/b&gt;: COMS_struct&amp;nbsp;&lt;div&gt;&lt;b&gt;Output&lt;/b&gt;: void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Descripción&lt;/b&gt;:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Gestor de comunicación con Cargas Útiles por prioridades (0x01 mayor prioridad, 0x00 invalido)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1312" y="450" width="252" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bN4ON1j1iUdkn4UldxmA-12" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -295,7 +292,7 @@
         <mxCell id="bN4ON1j1iUdkn4UldxmA-31" value="Ejecución de Función" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-600" y="620" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bN4ON1j1iUdkn4UldxmA-38" value="&lt;b&gt;Input&lt;/b&gt;: COMS_struct&amp;nbsp;&lt;div&gt;&lt;b&gt;Output&lt;/b&gt;: void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Descripción&lt;/b&gt;:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Gestor de comunicación con Cargas Útiles por prioridades (0x00 mayor prioridad)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="bN4ON1j1iUdkn4UldxmA-38" value="&lt;b&gt;Input&lt;/b&gt;: COMS_struct&amp;nbsp;&lt;div&gt;&lt;b&gt;Output&lt;/b&gt;: void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Descripción&lt;/b&gt;:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Carga en el buffer de datos de vuelo el identificador de la carga útil a la que se solicitará el mensaje de estado para la gestión de telemetría&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1312" y="970" width="252" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bN4ON1j1iUdkn4UldxmA-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bN4ON1j1iUdkn4UldxmA-41" target="bN4ON1j1iUdkn4UldxmA-44">
@@ -306,8 +303,61 @@
         <mxCell id="bN4ON1j1iUdkn4UldxmA-41" value="Buffer de Cargas Útiles con&amp;nbsp;&lt;div&gt;transmisión activa&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="-600" y="750" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="bN4ON1j1iUdkn4UldxmA-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bN4ON1j1iUdkn4UldxmA-44" target="bN4ON1j1iUdkn4UldxmA-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bN4ON1j1iUdkn4UldxmA-44" value="Contador almacenado en buffer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-763" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bN4ON1j1iUdkn4UldxmA-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bN4ON1j1iUdkn4UldxmA-48" target="bN4ON1j1iUdkn4UldxmA-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bN4ON1j1iUdkn4UldxmA-48" value="Seleccionar elemento del buffer según contador" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-920" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bN4ON1j1iUdkn4UldxmA-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bN4ON1j1iUdkn4UldxmA-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1020" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bN4ON1j1iUdkn4UldxmA-49" value="Incrementar contador en uno" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bN4ON1j1iUdkn4UldxmA-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bN4ON1j1iUdkn4UldxmA-55" target="bN4ON1j1iUdkn4UldxmA-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bN4ON1j1iUdkn4UldxmA-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.013;entryY=0.62;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bN4ON1j1iUdkn4UldxmA-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-918.44" y="997.2" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1020" y="997" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bN4ON1j1iUdkn4UldxmA-55" value="¿Contador mayor&amp;nbsp;&lt;div&gt;a número de cargas transmisoras?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="840" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bN4ON1j1iUdkn4UldxmA-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bN4ON1j1iUdkn4UldxmA-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-860" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bN4ON1j1iUdkn4UldxmA-56" value="Reiniciar contador a 0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-920" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bN4ON1j1iUdkn4UldxmA-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bN4ON1j1iUdkn4UldxmA-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-753" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bN4ON1j1iUdkn4UldxmA-63" value="Determinar carga a solicitar información" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-920" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bN4ON1j1iUdkn4UldxmA-66" value="Comunicación con Cargas Útiles" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="54" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bN4ON1j1iUdkn4UldxmA-68" value="Buffer de datos&amp;nbsp;&lt;div&gt;de vuelo&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-763" y="960" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
